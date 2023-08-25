@@ -9,7 +9,7 @@ const starsArr: countArray = [] ;
 
 export const Stars = ( { count = 0 }: StarsProps) => {
 
-  if (count >= 1 && count < 6 && typeof(count) === 'number') {
+  if (count >= 1 && count < 6) {
     for(let i = 0; i < count; i += 1) {
       starsArr[i] = true;
     }
